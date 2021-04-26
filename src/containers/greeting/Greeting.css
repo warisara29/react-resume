@@ -1,0 +1,269 @@
+.container {
+  width: 100% !important;
+  height: auto;
+}
+
+.main {
+  width: 95%;
+  padding: 0px 10px;
+  margin: 100px auto;
+  margin-top: 2rem;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+#skills {
+  margin-top: 5rem;
+}
+
+.greet-main {
+  max-width: 1370px;
+  max-height: 550px;
+  margin: 0px auto;
+  margin-top: 1rem;
+  display: block;
+}
+
+.greeting-main {
+  display: flex;
+  /* text-align: center; */
+}
+
+.greeting-main > * {
+  /* flex: 1; */
+  margin-bottom: 10px;
+}
+
+.button-greeting-div {
+  display: flex;
+  margin-top: 10px;
+}
+
+.greeting-text {
+  margin-top: 50px;
+  font-size: 70px;
+  line-height: 5px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.greeting-text-p {
+  font-size: 22px;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-right: 40px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-heading {
+  font-size: 2rem !important;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.skills-main-div {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.skills-text {
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 15px 15px;
+  margin-top: 25px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+
+  .greeting-text-p {
+    font-size: 20px;
+  }
+
+  .greet-main {
+    max-width: 900px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+  .portfolio-repo-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Education */
+.educations-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: 'Sulphur Point', sans-serif !important;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.body-header{
+  max-width: inherit;
+  display: flex;
+  border-radius: 7px 7px 0px 0px;
+  padding: 15px !important;
+  
+}
+
+.card-title {
+  font-family: 'Sulphur Point', sans-serif !important;
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  font-family: 'Sulphur Point', sans-serif !important;
+  font-size: 1.5rem;
+}
+
+.body-header-duration {
+  width: 20%;
+  font-family: 'Sulphur Point', sans-serif !important;
+}
+
+.content-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Sulphur Point', sans-serif !important;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1380px) {
+  .educations-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .educations-header {
+    font-size: 30px;
+  }
+}
+
+/* Project */
+.project-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.startup-project-text img{
+  max-width: 100%;
+  height: auto;
+}
+
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem 1rem;
+  margin: 50px;
+  font-family: 'Sulphur Point', sans-serif !important;
+}
+
+.repo-name {
+  font-family: 'Sulphur Point', sans-serif !important;
+  font-size: 1.5rem;
+}
+
+.repo-description {
+  font-family: 'Sulphur Point', sans-serif !important;
+  font-size: 1.2rem;
+}
+
+.projects-heading-div {
+  display: flex;
+  margin: 50px;
+  font-family: 'Sulphur Point', sans-serif !important;
+}
+
+.projects-heading-text {
+  font-size: 3rem;
+}
+
+.projects-header-detail-text {
+  font-size: 1.5rem;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .project-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .repo-cards-div-main{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .project-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .repo-cards-div-main{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
